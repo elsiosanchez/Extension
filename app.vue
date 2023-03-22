@@ -5,6 +5,7 @@
   <el-button type="primary" plain>
     <NuxtLink to="/about"> About </NuxtLink>
   </el-button>
+  <NuxtLink to="/about"> About </NuxtLink>
   <el-card shadow="never">
     <p style="text-align: center">
       Current route: <code>{{ route.path }}</code>
